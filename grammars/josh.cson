@@ -1,9 +1,8 @@
-'comment': 'Josh Syntax: version 1.2'
+'comment': 'Josh Syntax: version 0.1.2'
 'fileTypes': [
   'jsh'
 ]
-'firstLineMatch': '\\A#!.*?\\bjsh\\b'
-'name': 'Josh'
+'name': 'JoshScript'
 'patterns': [
   {
     'begin': '\\('
@@ -22,8 +21,12 @@
     'name': 'support.function.jsh'
   }
   {
-    'match': '(JOSh|josH|Josh|JOSH|josh)'
-    'name': 'keyword.operator.jsh'
+    'match': '(JOSh|Josh|JOSH|josh)'
+    'name': 'constant.language.jsh'
+  }
+  {
+    'match': '(JOsh|JosH)'
+    'name': 'variable.other.jsh'
   }
 ]
 'scopeName': 'source.jsh'
