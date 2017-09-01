@@ -1,0 +1,29 @@
+'comment': 'Josh Syntax: version 1.2'
+'fileTypes': [
+  'jsh'
+]
+'firstLineMatch': '\\A#!.*?\\bjsh\\b'
+'name': 'Josh'
+'patterns': [
+  {
+    'begin': '\\('
+    'captures':
+      '0':
+        'name': 'punctuation.definition.comment.jsh'
+    'end': '\\)'
+    'name': 'comment.block.jsh'
+  }
+  {
+    'match': '(JoSh|jOsH)'
+    'name': 'keyword.control.jsh'
+  }
+  {
+    'match': '(joSH|joSh)'
+    'name': 'support.function.jsh'
+  }
+  {
+    'match': '(JOSh|josH|Josh|JOSH|josh)'
+    'name': 'keyword.operator.jsh'
+  }
+]
+'scopeName': 'source.jsh'
