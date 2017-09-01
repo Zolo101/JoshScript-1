@@ -1,0 +1,12 @@
+{".source.josh":
+	{"editor":
+		{
+			"autoIndentOnPaste":false,
+			"softTabs":true,
+			"tabLength":4,
+			"commentStart":"\\( ",
+			"increaseIndentPattern":"(JoSh)",
+			"decreaseIndentPattern":"(jOsH)"
+		}
+	}
+}
